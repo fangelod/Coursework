@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CGoL</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="a2.css">
+        <script type="text/javascript" src="http://www.cs.unc.edu/Courses/comp426-f15/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="a2.js"></script>
+    </head>
+
+    <body>
+        <div id="titles">
+            <h1>Conway's Game of Life</h1>
+        </div>
+        <div id="grid_holder">
+            <table id="grid">
+                <tr>
+                    <td id="R001C001"><div></div></td>
+                    <td id="R001C002"><div></div></td>
+                    <td id="R001C003"><div></div></td>
+                    <td id="R001C004"><div></div></td>
+                    <td id="R001C005"><div></div></td>
+                    <td id="R001C006"><div></div></td>
+                    <td id="R001C007"><div></div></td>
+                    <td id="R001C008"><div></div></td>
+                    <td id="R001C009"><div></div></td>
+                    <td id="R001C010"><div></div></td>
+                    <td id="R001C011"><div></div></td>
+                    <td id="R001C012"><div></div></td>
+                    <td id="R001C013"><div></div></td>
+                    <td id="R001C014"><div></div></td>
+                    <td id="R001C015"><div></div></td>
+                    <td id="R001C016"><div></div></td>
+                    <td id="R001C017"><div></div></td>
+                    <td id="R001C018"><div></div></td>
+                    <td id="R001C019"><div></div></td>
+                    <td id="R001C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R002C001"><div></div></td>
+                    <td id="R002C002"><div></div></td>
+                    <td id="R002C003"><div></div></td>
+                    <td id="R002C004"><div></div></td>
+                    <td id="R002C005"><div></div></td>
+                    <td id="R002C006"><div></div></td>
+                    <td id="R002C007"><div></div></td>
+                    <td id="R002C008"><div></div></td>
+                    <td id="R002C009"><div></div></td>
+                    <td id="R002C010"><div></div></td>
+                    <td id="R002C011"><div></div></td>
+                    <td id="R002C012"><div></div></td>
+                    <td id="R002C013"><div></div></td>
+                    <td id="R002C014"><div></div></td>
+                    <td id="R002C015"><div></div></td>
+                    <td id="R002C016"><div></div></td>
+                    <td id="R002C017"><div></div></td>
+                    <td id="R002C018"><div></div></td>
+                    <td id="R002C019"><div></div></td>
+                    <td id="R002C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R003C001"><div></div></td>
+                    <td id="R003C002"><div></div></td>
+                    <td id="R003C003"><div></div></td>
+                    <td id="R003C004"><div></div></td>
+                    <td id="R003C005"><div></div></td>
+                    <td id="R003C006"><div></div></td>
+                    <td id="R003C007"><div></div></td>
+                    <td id="R003C008"><div></div></td>
+                    <td id="R003C009"><div></div></td>
+                    <td id="R003C010"><div></div></td>
+                    <td id="R003C011"><div></div></td>
+                    <td id="R003C012"><div></div></td>
+                    <td id="R003C013"><div></div></td>
+                    <td id="R003C014"><div></div></td>
+                    <td id="R003C015"><div></div></td>
+                    <td id="R003C016"><div></div></td>
+                    <td id="R003C017"><div></div></td>
+                    <td id="R003C018"><div></div></td>
+                    <td id="R003C019"><div></div></td>
+                    <td id="R003C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R004C001"><div></div></td>
+                    <td id="R004C002"><div></div></td>
+                    <td id="R004C003"><div></div></td>
+                    <td id="R004C004"><div></div></td>
+                    <td id="R004C005"><div></div></td>
+                    <td id="R004C006"><div></div></td>
+                    <td id="R004C007"><div></div></td>
+                    <td id="R004C008"><div></div></td>
+                    <td id="R004C009"><div></div></td>
+                    <td id="R004C010"><div></div></td>
+                    <td id="R004C011"><div></div></td>
+                    <td id="R004C012"><div></div></td>
+                    <td id="R004C013"><div></div></td>
+                    <td id="R004C014"><div></div></td>
+                    <td id="R004C015"><div></div></td>
+                    <td id="R004C016"><div></div></td>
+                    <td id="R004C017"><div></div></td>
+                    <td id="R004C018"><div></div></td>
+                    <td id="R004C019"><div></div></td>
+                    <td id="R004C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R005C001"><div></div></td>
+                    <td id="R005C002"><div></div></td>
+                    <td id="R005C003"><div></div></td>
+                    <td id="R005C004"><div></div></td>
+                    <td id="R005C005"><div></div></td>
+                    <td id="R005C006"><div></div></td>
+                    <td id="R005C007"><div></div></td>
+                    <td id="R005C008"><div></div></td>
+                    <td id="R005C009"><div></div></td>
+                    <td id="R005C010"><div></div></td>
+                    <td id="R005C011"><div></div></td>
+                    <td id="R005C012"><div></div></td>
+                    <td id="R005C013"><div></div></td>
+                    <td id="R005C014"><div></div></td>
+                    <td id="R005C015"><div></div></td>
+                    <td id="R005C016"><div></div></td>
+                    <td id="R005C017"><div></div></td>
+                    <td id="R005C018"><div></div></td>
+                    <td id="R005C019"><div></div></td>
+                    <td id="R005C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R006C001"><div></div></td>
+                    <td id="R006C002"><div></div></td>
+                    <td id="R006C003"><div></div></td>
+                    <td id="R006C004"><div></div></td>
+                    <td id="R006C005"><div></div></td>
+                    <td id="R006C006"><div></div></td>
+                    <td id="R006C007"><div></div></td>
+                    <td id="R006C008"><div></div></td>
+                    <td id="R006C009"><div></div></td>
+                    <td id="R006C010"><div></div></td>
+                    <td id="R006C011"><div></div></td>
+                    <td id="R006C012"><div></div></td>
+                    <td id="R006C013"><div></div></td>
+                    <td id="R006C014"><div></div></td>
+                    <td id="R006C015"><div></div></td>
+                    <td id="R006C016"><div></div></td>
+                    <td id="R006C017"><div></div></td>
+                    <td id="R006C018"><div></div></td>
+                    <td id="R006C019"><div></div></td>
+                    <td id="R006C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R007C001"><div></div></td>
+                    <td id="R007C002"><div></div></td>
+                    <td id="R007C003"><div></div></td>
+                    <td id="R007C004"><div></div></td>
+                    <td id="R007C005"><div></div></td>
+                    <td id="R007C006"><div></div></td>
+                    <td id="R007C007"><div></div></td>
+                    <td id="R007C008"><div></div></td>
+                    <td id="R007C009"><div></div></td>
+                    <td id="R007C010"><div></div></td>
+                    <td id="R007C011"><div></div></td>
+                    <td id="R007C012"><div></div></td>
+                    <td id="R007C013"><div></div></td>
+                    <td id="R007C014"><div></div></td>
+                    <td id="R007C015"><div></div></td>
+                    <td id="R007C016"><div></div></td>
+                    <td id="R007C017"><div></div></td>
+                    <td id="R007C018"><div></div></td>
+                    <td id="R007C019"><div></div></td>
+                    <td id="R007C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R008C001"><div></div></td>
+                    <td id="R008C002"><div></div></td>
+                    <td id="R008C003"><div></div></td>
+                    <td id="R008C004"><div></div></td>
+                    <td id="R008C005"><div></div></td>
+                    <td id="R008C006"><div></div></td>
+                    <td id="R008C007"><div></div></td>
+                    <td id="R008C008"><div></div></td>
+                    <td id="R008C009"><div></div></td>
+                    <td id="R008C010"><div></div></td>
+                    <td id="R008C011"><div></div></td>
+                    <td id="R008C012"><div></div></td>
+                    <td id="R008C013"><div></div></td>
+                    <td id="R008C014"><div></div></td>
+                    <td id="R008C015"><div></div></td>
+                    <td id="R008C016"><div></div></td>
+                    <td id="R008C017"><div></div></td>
+                    <td id="R008C018"><div></div></td>
+                    <td id="R008C019"><div></div></td>
+                    <td id="R008C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R009C001"><div></div></td>
+                    <td id="R009C002"><div></div></td>
+                    <td id="R009C003"><div></div></td>
+                    <td id="R009C004"><div></div></td>
+                    <td id="R009C005"><div></div></td>
+                    <td id="R009C006"><div></div></td>
+                    <td id="R009C007"><div></div></td>
+                    <td id="R009C008"><div></div></td>
+                    <td id="R009C009"><div></div></td>
+                    <td id="R009C010"><div></div></td>
+                    <td id="R009C011"><div></div></td>
+                    <td id="R009C012"><div></div></td>
+                    <td id="R009C013"><div></div></td>
+                    <td id="R009C014"><div></div></td>
+                    <td id="R009C015"><div></div></td>
+                    <td id="R009C016"><div></div></td>
+                    <td id="R009C017"><div></div></td>
+                    <td id="R009C018"><div></div></td>
+                    <td id="R009C019"><div></div></td>
+                    <td id="R009C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R010C001"><div></div></td>
+                    <td id="R010C002"><div></div></td>
+                    <td id="R010C003"><div></div></td>
+                    <td id="R010C004"><div></div></td>
+                    <td id="R010C005"><div></div></td>
+                    <td id="R010C006"><div></div></td>
+                    <td id="R010C007"><div></div></td>
+                    <td id="R010C008"><div></div></td>
+                    <td id="R010C009"><div></div></td>
+                    <td id="R010C010"><div></div></td>
+                    <td id="R010C011"><div></div></td>
+                    <td id="R010C012"><div></div></td>
+                    <td id="R010C013"><div></div></td>
+                    <td id="R010C014"><div></div></td>
+                    <td id="R010C015"><div></div></td>
+                    <td id="R010C016"><div></div></td>
+                    <td id="R010C017"><div></div></td>
+                    <td id="R010C018"><div></div></td>
+                    <td id="R010C019"><div></div></td>
+                    <td id="R010C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R011C001"><div></div></td>
+                    <td id="R011C002"><div></div></td>
+                    <td id="R011C003"><div></div></td>
+                    <td id="R011C004"><div></div></td>
+                    <td id="R011C005"><div></div></td>
+                    <td id="R011C006"><div></div></td>
+                    <td id="R011C007"><div></div></td>
+                    <td id="R011C008"><div></div></td>
+                    <td id="R011C009"><div></div></td>
+                    <td id="R011C010"><div></div></td>
+                    <td id="R011C011"><div></div></td>
+                    <td id="R011C012"><div></div></td>
+                    <td id="R011C013"><div></div></td>
+                    <td id="R011C014"><div></div></td>
+                    <td id="R011C015"><div></div></td>
+                    <td id="R011C016"><div></div></td>
+                    <td id="R011C017"><div></div></td>
+                    <td id="R011C018"><div></div></td>
+                    <td id="R011C019"><div></div></td>
+                    <td id="R011C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R012C001"><div></div></td>
+                    <td id="R012C002"><div></div></td>
+                    <td id="R012C003"><div></div></td>
+                    <td id="R012C004"><div></div></td>
+                    <td id="R012C005"><div></div></td>
+                    <td id="R012C006"><div></div></td>
+                    <td id="R012C007"><div></div></td>
+                    <td id="R012C008"><div></div></td>
+                    <td id="R012C009"><div></div></td>
+                    <td id="R012C010"><div></div></td>
+                    <td id="R012C011"><div></div></td>
+                    <td id="R012C012"><div></div></td>
+                    <td id="R012C013"><div></div></td>
+                    <td id="R012C014"><div></div></td>
+                    <td id="R012C015"><div></div></td>
+                    <td id="R012C016"><div></div></td>
+                    <td id="R012C017"><div></div></td>
+                    <td id="R012C018"><div></div></td>
+                    <td id="R012C019"><div></div></td>
+                    <td id="R012C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R013C001"><div></div></td>
+                    <td id="R013C002"><div></div></td>
+                    <td id="R013C003"><div></div></td>
+                    <td id="R013C004"><div></div></td>
+                    <td id="R013C005"><div></div></td>
+                    <td id="R013C006"><div></div></td>
+                    <td id="R013C007"><div></div></td>
+                    <td id="R013C008"><div></div></td>
+                    <td id="R013C009"><div></div></td>
+                    <td id="R013C010"><div></div></td>
+                    <td id="R013C011"><div></div></td>
+                    <td id="R013C012"><div></div></td>
+                    <td id="R013C013"><div></div></td>
+                    <td id="R013C014"><div></div></td>
+                    <td id="R013C015"><div></div></td>
+                    <td id="R013C016"><div></div></td>
+                    <td id="R013C017"><div></div></td>
+                    <td id="R013C018"><div></div></td>
+                    <td id="R013C019"><div></div></td>
+                    <td id="R013C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R014C001"><div></div></td>
+                    <td id="R014C002"><div></div></td>
+                    <td id="R014C003"><div></div></td>
+                    <td id="R014C004"><div></div></td>
+                    <td id="R014C005"><div></div></td>
+                    <td id="R014C006"><div></div></td>
+                    <td id="R014C007"><div></div></td>
+                    <td id="R014C008"><div></div></td>
+                    <td id="R014C009"><div></div></td>
+                    <td id="R014C010"><div></div></td>
+                    <td id="R014C011"><div></div></td>
+                    <td id="R014C012"><div></div></td>
+                    <td id="R014C013"><div></div></td>
+                    <td id="R014C014"><div></div></td>
+                    <td id="R014C015"><div></div></td>
+                    <td id="R014C016"><div></div></td>
+                    <td id="R014C017"><div></div></td>
+                    <td id="R014C018"><div></div></td>
+                    <td id="R014C019"><div></div></td>
+                    <td id="R014C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R015C001"><div></div></td>
+                    <td id="R015C002"><div></div></td>
+                    <td id="R015C003"><div></div></td>
+                    <td id="R015C004"><div></div></td>
+                    <td id="R015C005"><div></div></td>
+                    <td id="R015C006"><div></div></td>
+                    <td id="R015C007"><div></div></td>
+                    <td id="R015C008"><div></div></td>
+                    <td id="R015C009"><div></div></td>
+                    <td id="R015C010"><div></div></td>
+                    <td id="R015C011"><div></div></td>
+                    <td id="R015C012"><div></div></td>
+                    <td id="R015C013"><div></div></td>
+                    <td id="R015C014"><div></div></td>
+                    <td id="R015C015"><div></div></td>
+                    <td id="R015C016"><div></div></td>
+                    <td id="R015C017"><div></div></td>
+                    <td id="R015C018"><div></div></td>
+                    <td id="R015C019"><div></div></td>
+                    <td id="R015C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R016C001"><div></div></td>
+                    <td id="R016C002"><div></div></td>
+                    <td id="R016C003"><div></div></td>
+                    <td id="R016C004"><div></div></td>
+                    <td id="R016C005"><div></div></td>
+                    <td id="R016C006"><div></div></td>
+                    <td id="R016C007"><div></div></td>
+                    <td id="R016C008"><div></div></td>
+                    <td id="R016C009"><div></div></td>
+                    <td id="R016C010"><div></div></td>
+                    <td id="R016C011"><div></div></td>
+                    <td id="R016C012"><div></div></td>
+                    <td id="R016C013"><div></div></td>
+                    <td id="R016C014"><div></div></td>
+                    <td id="R016C015"><div></div></td>
+                    <td id="R016C016"><div></div></td>
+                    <td id="R016C017"><div></div></td>
+                    <td id="R016C018"><div></div></td>
+                    <td id="R016C019"><div></div></td>
+                    <td id="R016C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R017C001"><div></div></td>
+                    <td id="R017C002"><div></div></td>
+                    <td id="R017C003"><div></div></td>
+                    <td id="R017C004"><div></div></td>
+                    <td id="R017C005"><div></div></td>
+                    <td id="R017C006"><div></div></td>
+                    <td id="R017C007"><div></div></td>
+                    <td id="R017C008"><div></div></td>
+                    <td id="R017C009"><div></div></td>
+                    <td id="R017C010"><div></div></td>
+                    <td id="R017C011"><div></div></td>
+                    <td id="R017C012"><div></div></td>
+                    <td id="R017C013"><div></div></td>
+                    <td id="R017C014"><div></div></td>
+                    <td id="R017C015"><div></div></td>
+                    <td id="R017C016"><div></div></td>
+                    <td id="R017C017"><div></div></td>
+                    <td id="R017C018"><div></div></td>
+                    <td id="R017C019"><div></div></td>
+                    <td id="R017C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R018C001"><div></div></td>
+                    <td id="R018C002"><div></div></td>
+                    <td id="R018C003"><div></div></td>
+                    <td id="R018C004"><div></div></td>
+                    <td id="R018C005"><div></div></td>
+                    <td id="R018C006"><div></div></td>
+                    <td id="R018C007"><div></div></td>
+                    <td id="R018C008"><div></div></td>
+                    <td id="R018C009"><div></div></td>
+                    <td id="R018C010"><div></div></td>
+                    <td id="R018C011"><div></div></td>
+                    <td id="R018C012"><div></div></td>
+                    <td id="R018C013"><div></div></td>
+                    <td id="R018C014"><div></div></td>
+                    <td id="R018C015"><div></div></td>
+                    <td id="R018C016"><div></div></td>
+                    <td id="R018C017"><div></div></td>
+                    <td id="R018C018"><div></div></td>
+                    <td id="R018C019"><div></div></td>
+                    <td id="R018C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R019C001"><div></div></td>
+                    <td id="R019C002"><div></div></td>
+                    <td id="R019C003"><div></div></td>
+                    <td id="R019C004"><div></div></td>
+                    <td id="R019C005"><div></div></td>
+                    <td id="R019C006"><div></div></td>
+                    <td id="R019C007"><div></div></td>
+                    <td id="R019C008"><div></div></td>
+                    <td id="R019C009"><div></div></td>
+                    <td id="R019C010"><div></div></td>
+                    <td id="R019C011"><div></div></td>
+                    <td id="R019C012"><div></div></td>
+                    <td id="R019C013"><div></div></td>
+                    <td id="R019C014"><div></div></td>
+                    <td id="R019C015"><div></div></td>
+                    <td id="R019C016"><div></div></td>
+                    <td id="R019C017"><div></div></td>
+                    <td id="R019C018"><div></div></td>
+                    <td id="R019C019"><div></div></td>
+                    <td id="R019C020"><div></div></td>
+                </tr>
+                <tr>
+                    <td id="R020C001"><div></div></td>
+                    <td id="R020C002"><div></div></td>
+                    <td id="R020C003"><div></div></td>
+                    <td id="R020C004"><div></div></td>
+                    <td id="R020C005"><div></div></td>
+                    <td id="R020C006"><div></div></td>
+                    <td id="R020C007"><div></div></td>
+                    <td id="R020C008"><div></div></td>
+                    <td id="R020C009"><div></div></td>
+                    <td id="R020C010"><div></div></td>
+                    <td id="R020C011"><div></div></td>
+                    <td id="R020C012"><div></div></td>
+                    <td id="R020C013"><div></div></td>
+                    <td id="R020C014"><div></div></td>
+                    <td id="R020C015"><div></div></td>
+                    <td id="R020C016"><div></div></td>
+                    <td id="R020C017"><div></div></td>
+                    <td id="R020C018"><div></div></td>
+                    <td id="R020C019"><div></div></td>
+                    <td id="R020C020"><div></div></td>
+                </tr>
+            </table>
+        </div>
+        <div id="buttons">
+            <button id="start" type="button">Start</button>
+            <button id="stop" type="button">Stop</button>
+            <button id="step" type="button">Step</button>
+            <button id="randomize" type="button">Randomize</button>
+            <button id="reset" type="button">Reset</button>
+        </div>
+        <div id="sliders">
+            <label>Outer Referencing: </label><input id="reference" list="neighbors" placeholder="Always Dead" value="Always Dead">
+            <datalist id="neighbors">
+                <option>Always Dead</option>
+                <option>Always Alive</option>
+                <option>Toroidal</option>
+            </datalist>
+            <label id="padleft">Grid Size: </label><input type="number" id="size" min="20" max="200" placeholder="20">
+            <label id="padleft">Speed: </label><label>0</label><input type="range" id="speed" min="0" max="1000" value="0"><label>1000</label>
+            <label id="padleft">Current Delay: <label id="insert">0</label><label>ms</label></label>
+        </div>
+        <div id="parameters">
+            <label>Radius: </label><input type="number" id="r" min="1" max="10" value="1">
+            <label id="padleft">Lonliness Threshold: </label><input type="number" id="l" min="0" max="440"  value="2">
+            <label id="padleft">Overpopulation Threshold: </label><input type="number" id="o" min="0" max="440" value="3">
+            <label id="padleft">Generation Min: </label><input type="number" id="gmin" min="0" max="440"  value="3">
+            <label id="padleft">Generation Max: </label><input type="number" id="gmax" min="0" max="440"  value="3">
+        </div>
+        <div id="update">
+            <button id="setting" type="button">Update</button>
+        </div>
+    </body>
+</html>

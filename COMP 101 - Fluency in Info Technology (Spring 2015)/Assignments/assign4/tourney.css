@@ -1,0 +1,57 @@
+/* This CSS file was last updated by Franz Dominno on 21 Mar 2015 */
+div {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightblue;
+    padding: 25px;
+}
+body {
+    background: black;
+}
+img {
+    max-width: 200px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    clear: both;
+}
+dt {
+    font-weight: bold;
+    font-size: 20pt;
+    border-radius: 5px;
+    padding-top: 25px;
+}
+.first {
+    padding-top: 0;
+}
+dd {
+    text-indent: 25px;
+    border: 1px solid black;
+    background: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1 + p {
+    text-indent: 25px;
+}
+h1 {
+    text-align: center;
+    font-size: 36pt;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    padding-top: 25px;
+}
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+}

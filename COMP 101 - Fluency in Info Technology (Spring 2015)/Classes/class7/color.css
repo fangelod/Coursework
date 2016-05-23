@@ -1,0 +1,15 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+}
+img {
+    width: 75%;
+    margin: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block; 
+}
+figure {
+    border: 1px solid blue;
+}

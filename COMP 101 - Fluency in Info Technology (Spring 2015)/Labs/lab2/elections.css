@@ -1,0 +1,49 @@
+body {
+    background: gray;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+    
+}
+div {
+    background: white;
+    padding: 40px;
+    margin-top: 25px;
+    border: solid blue;
+}
+h1 {
+    text-align: center;
+    font-size: 16pt;
+    background: blue;
+    border: solid red;
+    border-radius: 50px;
+    padding: 20px;
+}
+section {
+    text-align: justify;
+    font-size: 12pt;
+}
+ul li {
+    display: inline;
+}
+li {
+    list-style-type: none;
+    color: white;
+    margin: 35px;
+    border: hidden;
+    background: blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+footer {
+    margin-top: 50px;
+    margin-left: 50%;
+    font-style: italic;
+    font-size: 8pt;
+    padding: 10px;
+    text-align: justify;
+    text-align: right;
+    border: solid red;
+}

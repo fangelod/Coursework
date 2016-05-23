@@ -1,0 +1,38 @@
+body {
+  background: green;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-family: EngraversMT;
+  font-size: 24pt;
+}
+h2 {
+  font-family: haettenschweiler;
+  font-size: 20pt;
+}
+p {
+  font-size: 16pt;
+}
+dt {
+  font-size: 16pt;
+}
+dd {
+  font-size: 12pt;
+}
+ul {
+  font-size: 12pt;
+}
+ol {
+  font-size: 12pt;
+}
+li::first-letter {
+  font-size: 2em;
+  text-transform: capitalize;
+}
+footer {
+  text-align: right;
+  color: red;
+}

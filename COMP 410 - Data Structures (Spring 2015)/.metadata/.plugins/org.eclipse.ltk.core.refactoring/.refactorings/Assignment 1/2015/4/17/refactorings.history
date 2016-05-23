@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Queue.java&apos; to &apos;Assignment 4/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Assignment 1&apos;&#x0D;&#x0A;- Destination element: &apos;Assignment 4/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;assignment1.Queue.java&apos;" description="Copy compilation unit" destination="=Assignment 4/src&lt;" element1="/src&lt;assignment1{Queue.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1429902111852" units="1" version="1.0"/>
+</session>

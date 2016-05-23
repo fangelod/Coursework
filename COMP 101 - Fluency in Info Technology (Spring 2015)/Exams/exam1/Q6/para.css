@@ -1,0 +1,13 @@
+#one {
+  font-size: 125%;
+  letter-spacing: .5px;
+}
+#one::first-letter {
+  font-size: 250%;
+}
+#three {
+  font-size: 75%;
+  color: gray;
+  border: 1px solid red;
+  padding: 5px;
+}

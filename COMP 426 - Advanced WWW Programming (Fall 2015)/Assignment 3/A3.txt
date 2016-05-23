@@ -1,0 +1,52 @@
+How many touchdowns did Peyton Manning score or pass when playing against Miami?
+
+SELECT sum(`Touchdown Passes`) 
+FROM `Player` 
+WHERE `Last Name`='Manning' 
+AND `Game ID` IN (SELECT `Game ID` 
+					FROM `Player` 
+					WHERE `Last Name`='Manning') 
+AND `Game ID` IN (SELECT `Game ID` 
+					FROM `Game` 
+					WHERE `Team1 Name`='Miami' OR `Team2 Name`='Miami')
+
+sum(`Touchdown Passes`)
+2
+
+ 
+List all the games (date and opposing team) that Tennessee won.
+
+SELECT `A`.`Date`, `B`.`Team Name` FROM 
+(SELECT `Game`.`Date`, `Team`.`Score`, `Team`.`Team Name`
+FROM `Game`, `Team`
+WHERE `Game`.`Game ID`=`Team`.`Game ID` AND `Game`.`Game ID`
+IN (SELECT `Game ID` FROM `Game` WHERE `Team1 Name`='Tennessee' OR `Team2 Name`='Tennessee')
+AND `Team`.`Team Name`='Tennessee') AS `A`, 
+(SELECT `Game`.`Date`, `Team`.`Score`, `Team`.`Team Name`
+FROM `Game`, `Team`
+WHERE `Game`.`Game ID`=`Team`.`Game ID` AND `Game`.`Game ID`
+IN (SELECT `Game ID` FROM `Game` WHERE `Team1 Name`='Tennessee' OR `Team2 Name`='Tennessee')
+AND NOT `Team`.`Team Name`='Tennessee') AS `B`
+WHERE `A`.`Date`=`B`.`Date` AND `A`.`Score` > `B`.`Score`
+
+Date			Team Name
+2015-09-06		Miami
+2015-09-13		Chicago
+2015-09-20		Denver
+2015-10-11		Seattle
+2015-10-18		Dallas
+2015-11-22		SanFrancisco
+2015-11-29		Seattle
+ 
+How rushing touchdowns did Reggie Bush score in October?
+
+SELECT sum(`Touchdown Rushes`) 
+FROM `Player` 
+WHERE `Game ID` IN (SELECT `Game ID` 
+					FROM `Game` 
+					WHERE `Date` 
+					BETWEEN '2015-10-01' AND '2015-10-30') 
+AND `Last Name`='Bush'
+
+sum(`Touchdown Rushes`)
+3

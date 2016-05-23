@@ -1,0 +1,18 @@
+Please enter the values for A[0..2][0..2], one row per line:
+Please enter the values for B[0..2][0..2], one row per line:
+A=
+    -4     4     1
+     6     5     0
+     7    -3     2
+B=
+     3     8     1
+    -2     6     0
+     4    -1     2
+C=A.B=
+   -16    -9    -2
+     8    78     6
+    35    36    11
+C=B.A=
+    43    49     5
+    44    22    -2
+    -8     5     8

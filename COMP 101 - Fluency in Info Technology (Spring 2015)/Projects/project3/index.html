@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The Philippines</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="filipino.css">
+        <script src="dial.js"></script>
+    </head>
+    
+    <body>
+        <div>
+            <ul class="nav">
+                <li class="white"><a href="index.html">Background</a></li>
+                <li class="yellow"><a href="symbols.html">National Symbols</a></li>
+                <li class="blue"><a href="land.html">Landmarks</a></li>
+                <li class="red"><a href="bib.html">Resources</a></li>
+                <li class="white"></li>
+                <li class="yellow"></li>
+                <li class="blue"></li>
+                <li class="red"></li>
+                <li class="white"></li>
+                <li class="yellow"></li>
+                <li class="blue"></li>
+                <li class="red"></li>
+            </ul>
+            <h1>The Philippines</h1>
+            <h2>What is it?</h2>
+            <img src="map.jpg" alt="Map of the Philippines">
+            <p>
+                The Philippines is a country that consists of 7,107 islands located in Southeast Asia.
+                It has three geographical divisions: Luzon, Visayas, and Mindanao.
+                Luzon, indicated by the region in blue in the image to the left, makes up the northern majority of the country.
+                The country's capital, Manila, resides in this geographical region.
+                Visayas, indicated by the yellow, makes up the the middle group of islands of the country.
+                Mindanao, indicated by the red makes up the southern mainland and it's surrounding islands.
+                Just southwest of the Philippines resides the country Malaysia.
+            </p>
+            <h2 class="front">Language</h2>
+            <img src="lang.png" alt="Map of the Philippines showing indigenous languages">
+            <p>
+                The national language of the Philippines is Filipino, however English is also an official language.
+                The language of Filipino has many different dialects that differs by region.
+                The most prominent language in the country is Tagalog.
+                This dialect, along with English, are the languages used taught in school.
+                However, depending on the region, schools may incorporate the regional dialect into the lessons as well.
+                The image to the left shows the languages used most in the different regions of the Philippines.
+                Use the form below to find out which geographical region each of these major dialects are a part of.
+            </p>
+            <form name="language">
+                <label>Dialect:
+                    <input list="speak" name="dialect">
+                    <datalist id="speak">
+                        <option>Bikolano</option>
+                        <option>Bisaya/Binisaya</option>
+                        <option>Cebuano</option>
+                        <option>Hiligaynon/Ilonggo</option>
+                        <option>Ilocano</option>
+                        <option>Tagalog</option>
+                        <option>Tausug</option>
+                        <option>Waray</option>
+                    </datalist>
+                </label>
+                <button type="button" onclick="where(language.dialect.value);">Go!</button>
+            </form>
+        </div>
+        <footer>
+            <p>
+                Last updated by Franz Dominno on 28 Mar 2015
+            </p>
+            <p class="blank">XXXXXXXXXXXXXXXXXXXXXX</p>
+        </footer>
+    </body>
+</html>

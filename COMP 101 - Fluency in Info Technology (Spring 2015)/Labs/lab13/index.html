@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <script src="forms.js"></script>
+</head>
+
+<body>
+  <h1>Form 1</h1>
+  <form name="mood">
+    <label>Person:
+      <input type="text" name="person" />
+    </label>
+    <label>
+      <input type="radio" value="happy" name="feel">Happy</label>
+    <label>
+      <input type="radio" value="sad" name="feel">Sad</label>
+    <button type="button" onclick="is(mood.person.value,mood.feel.value);">Show Me</button>
+  </form>
+  <h1>Form 2</h1>
+  <form name="student">
+    <label>Person:
+      <input type="text" name="person" />
+    </label>
+    <label>Year
+      <input list="acad" name="year">
+      <datalist id="acad">
+        <option>a freshman</option>
+        <option>a sophomore</option>
+        <option>a junior</option>
+        <option>a senior</option>
+      </datalist>
+    </label>
+    <button type="button" onclick="is(student.person.value,student.year.value);">Show Me</button>
+  </form>
+  <footer>Last updated by Franz Dominno on 26 Mar 2015</footer>
+</body>
+
+</html>

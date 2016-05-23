@@ -1,0 +1,100 @@
+/* This CSS file was last updated by Franz Dominno on 5 Mar 2015 */
+body {
+    background-image: url("images/background.jpg");
+}
+section {
+    background: rgb(86, 160, 211);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    font-family: consolas;
+}
+h1 {
+    text-align: center;
+    font-size: 36pt;
+}
+nav ul {
+    list-style : none;
+    width: 910px;
+    padding: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+    text-align: center;
+    margin: 0;
+    background: black;
+    border: 1px solid white;
+}
+img {
+    max-width: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure {
+    width: 250px;
+    float: left;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-top: 0;
+}
+figcaption {
+    text-align: center;
+    width: 225px;
+}
+a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;
+}
+h2 {
+    clear: both;
+    padding: 25px;
+}
+.cite p {
+    clear: both;
+    color: green;
+    font-family: arial;
+}
+.cite a {
+    color: green;
+    font-family: arial;
+}
+.cite {
+    color: green;
+    clear: both;
+}
+div p {
+    text-align: justify;
+    text-indent: 50px;
+}
+.horizontal {
+    list-style: none;
+}
+.horizontal li {
+    display: inline;
+    padding: 50px;
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+footer {
+    width: 350px;
+    margin-left: auto;
+}
+.right {
+    padding-left: 47px;
+    padding-right: 47px;
+}

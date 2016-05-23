@@ -1,0 +1,19 @@
+div.square {
+  width: 100px;
+  height: 100px;
+  background: green;
+  margin-left: 25px;
+}
+div.circle {
+  width: 100px;
+  height: 100px;
+  background: red; 
+  border-radius: 50px;
+  margin: 5px;
+}
+figure {
+  border: 1px black solid;
+  width: 110px;
+  height: 110px;
+  margin-left: 25px;
+}

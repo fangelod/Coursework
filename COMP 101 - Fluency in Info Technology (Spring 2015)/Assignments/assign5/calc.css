@@ -1,0 +1,83 @@
+/* This CSS file was last updated by Franz Dominno on 18 Apr 2015 */
+.background {
+    width: 950px;
+    background: #00ff00;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+    background: black;
+}
+.adjust {
+    margin-left: auto;
+    margin-right: auto;
+}
+.space {
+    width: 200px;
+}
+form {
+    padding: 50px;
+    padding-top: 0;
+}
+th {
+    font-size: 20pt;
+}
+h1 {
+    font-size: 36pt;
+    text-align: center;
+}
+footer {
+    color: white;
+    width: 950px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+.out {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: none;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 28pt;
+}
+.center {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+td>button {
+    font-size: 56pt;
+}
+.result {
+    font-size: 28pt;
+    width: 250px;
+}
+.align {
+    vertical-align: top;
+}
+.minbig {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mulbig {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.divbig {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.cbig {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.bord {
+    border: 5px solid black;
+    padding: 0;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}

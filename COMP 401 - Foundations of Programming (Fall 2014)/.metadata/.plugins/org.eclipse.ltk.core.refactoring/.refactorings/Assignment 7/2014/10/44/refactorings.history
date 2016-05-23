@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;a6adept&apos; to &apos;a7adept&apos;&#x0D;&#x0A;- Original project: &apos;Assignment 7&apos;&#x0D;&#x0A;- Original element: &apos;Assignment 7/src/a6adept&apos;&#x0D;&#x0A;- Renamed element: &apos;Assignment 7/src/a7adept&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;a6adept&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;a6adept" name="a7adept" qualified="false" references="true" stamp="1414768840897" textual="false" version="1.0"/>
+</session>

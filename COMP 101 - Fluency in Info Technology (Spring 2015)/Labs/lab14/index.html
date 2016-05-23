@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Buttons!</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="but.css">
+        <script src="but.js"></script>
+    </head>
+    
+    <body>
+        <div>
+            <form name="but">
+                <input class="floated" type="text" name="name">
+                <input class="floated" type="text" name="color">
+                <label class="shift">Your Name:</label>
+                <label class="shift">Your Favorite Color:</label>
+                <p>How do you feel about buttons?</p>
+                <div class="noblock">
+                    <label><input type="radio" value="likes" name="feel">Like</label>
+                    <label><input type="radio" value="hates" name="feel">Hate</label>
+                </div>
+                <button type="button" onclick="doe(but.name.value, but.feel.value, but.color.value);">Submit</button>
+                <input class="output" type="text" name="final">
+            </form>
+        </div>
+        <footer>Last updated by Franz Dominno on 31 Mar 2015</footer>
+    </body>
+</html>

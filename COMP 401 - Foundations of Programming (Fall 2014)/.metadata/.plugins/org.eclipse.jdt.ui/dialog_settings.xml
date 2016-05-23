@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="ProjectSelectionDialog.show_all"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
+	<item value="1" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item value="false" key="GenerateJavadoc"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer configured=&quot;true&quot; group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; sortWorkingSets=&quot;false&quot; workingSetName=&quot;&quot;&gt;&#x0D;&#x0A;&lt;localWorkingSetManager&gt;&#x0D;&#x0A;&lt;workingSet editPageId=&quot;org.eclipse.jdt.internal.ui.OthersWorkingSet&quot; factoryID=&quot;org.eclipse.ui.internal.WorkingSetFactory&quot; id=&quot;1410880933517_3&quot; label=&quot;Other Projects&quot; name=&quot;Other Projects&quot;&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=Assignment 3&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=Assignment1&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=Assignment2&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec02&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec03&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec04&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec05&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec06&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec07&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec09&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=lec08&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=Recitation 1&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item elementID=&quot;=Recitation9-5&quot; factoryID=&quot;org.eclipse.jdt.ui.PersistableJavaElementFactory&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Exercise1&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Exercise2&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/GerbilLab&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/GerbilLabAttempt&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/JUnit Demo&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Lab Exercise 1&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Lab Exercise 2&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Lab Exercise 3&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Lab Exercise 4&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Lab Exercise 5&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Practice&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Program0&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Program1&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Program2&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Program3&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/RemoteSystemsTempFiles&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Sorting&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/retry ass4&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/slideset19&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;item factoryID=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/test123&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;/workingSet&gt;&#x0D;&#x0A;&lt;/localWorkingSetManager&gt;&#x0D;&#x0A;&lt;activeWorkingSet workingSetName=&quot;Other Projects&quot;/&gt;&#x0D;&#x0A;&lt;allWorkingSets workingSetName=&quot;Other Projects&quot;/&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="false" key="linkWithEditor"/>
+		<item value="1" key="rootMode"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-37" key="DIALOG_X_ORIGIN"/>
+			<item value="0" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="true" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Recitation11-21\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_20\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="1.7" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Recitation11-21\doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="COMP 401 Lectures">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\COMP 401 Lectures\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\COMP 401 Lectures\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 4 Solution">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 4 Solution\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 4 Solution\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Recitation11-21">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Recitation11-21\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Recitation11-21\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lec10">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec10\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec10\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 1">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 2">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 3">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 3\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 3\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lec07">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec07\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec07\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lec06">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec06\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec06\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 4">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 4\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 4\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lec09">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec09\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec09\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 5">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 5\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 5\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 6">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 6\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 6\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lec08">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec08\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\lec08\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 7">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 7\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 7\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Assignment 8">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 8\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Assignment 8\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="COMP 401 Recitations">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\COMP 401 Recitations\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\COMP 401 Recitations\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="MATH547">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\MATH547\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\MATH547\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Testing">
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Testing\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Franz\Documents\Franz\SR\Semester\7 Fall 2014\COMP 401\COMP401-programs\Testing\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="BreadcrumbItemDropDown">
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="3" key="index"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="JarPackageWizard">
+		<item value="false" key="JarPackageWizardPage.INCLUDE_DIRECTORY_ENTRIES"/>
+		<item value="" key="JarManifestWizardPage.MANIFEST_LOCATION"/>
+		<item value="false" key="JarManifestWizardPage.SEAL_JAR"/>
+		<item value="true" key="JarPackageWizardPage.COMPRESS"/>
+		<item value="false" key="JarManifestWizardPage.REUSE_MANIFEST"/>
+		<item value="false" key="jarOptionsWizardPage.STORE_USE_SRC_FOLDERS"/>
+		<item value="true" key="jarOptionsWizardPage.EXPORT_WARNINGS"/>
+		<item value="" key="jarOptionsWizardPage.DESCRIPTION_LOCATION"/>
+		<item value="true" key="jarOptionsWizardPage.BUILD_IF_NEEDED"/>
+		<item value="true" key="JarPackageWizardPage.EXPORT_JAVA_FILES"/>
+		<item value="true" key="jarOptionsWizardPage.EXPORT_ERRORS"/>
+		<item value="true" key="JarManifestWizardPage.GENERATE_MANIFEST"/>
+		<item value="true" key="JarPackageWizardPage.EXPORT_CLASS_FILES"/>
+		<item value="false" key="JarPackageWizardPage.OVERWRITE"/>
+		<item value="false" key="jarOptionsWizardPage.SAVE_DESCRIPTION"/>
+		<item value="false" key="JarPackageWizardPage.REFACTORINGS"/>
+		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
+		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
+		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Franz\Desktop\a9.jar"/>
+			<item value="C:\Users\Franz\Desktop\a8.jar"/>
+			<item value="C:\Users\Franz\Desktop\a7.jar"/>
+			<item value="C:\Users\Franz\Desktop\a6.jar"/>
+			<item value="C:\Users\Franz\Desktop\a5.jar"/>
+		</list>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

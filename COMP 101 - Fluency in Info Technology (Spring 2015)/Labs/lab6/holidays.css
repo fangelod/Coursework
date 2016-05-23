@@ -1,0 +1,59 @@
+/* February pages css dpoz 10 Feb 2015 */
+/* This CSS file was last updated by Franz Dominno on 10 Feb 2015 */
+ul {
+    list-style : none;
+    padding-left: 0;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    background: yellow;
+}
+a:visited {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    background: yellow;
+}
+a:hover {
+    background: red;
+    color: yellow;
+    border: 1px solid yellow;
+}
+body {
+    background-color: lightyellow;
+    font-size: 12pt;
+    font-family: arial;   
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+div {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;    
+}
+footer {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-size: .75em;
+    color: gray;
+}

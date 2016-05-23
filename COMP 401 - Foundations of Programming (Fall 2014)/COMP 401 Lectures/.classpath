@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="lec02"/>
+	<classpathentry kind="src" path="lec03"/>
+	<classpathentry kind="src" path="lec04"/>
+	<classpathentry kind="src" path="lec05"/>
+	<classpathentry kind="src" path="lec06"/>
+	<classpathentry kind="src" path="lec07"/>
+	<classpathentry kind="src" path="lec08"/>
+	<classpathentry kind="src" path="lec09"/>
+	<classpathentry kind="src" path="lec10"/>
+	<classpathentry kind="src" path="lec11"/>
+	<classpathentry kind="src" path="lec12"/>
+	<classpathentry kind="src" path="lec13"/>
+	<classpathentry kind="src" path="lec14"/>
+	<classpathentry kind="src" path="lec15"/>
+	<classpathentry kind="src" path="lec16"/>
+	<classpathentry kind="src" path="lec17"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_25"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.1%Foundation-1.1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

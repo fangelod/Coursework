@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tools</title>
+        <meta charset="UTF-8">
+        <link href="calc.css" rel="stylesheet">
+        <script src="tools.js"></script>
+    </head>
+    
+    <body>
+        <div class="background">
+            <h1>Calculator and Date Tools</h1>
+            <table class="adjust">
+                <tr>
+                    <th>Calculator</th>
+                    <th class="space"></th>
+                    <th>Date Tools</th>
+                </tr>
+                <tr>
+                    <td>
+                        <form class="bord" name="math">
+                            <input class="result" type="text" name="field">
+                            <table>
+                                <tr>
+                                    <td><button type="button" onclick="concat(math.one.value);" name="one" value="1">1</button></td>
+                                    <td><button type="button" onclick="concat(math.two.value);" name="two" value="2">2</button></td>
+                                    <td><button type="button" onclick="concat(math.three.value);" name="three" value="3">3</button></td>
+                                    <td><button type="button" onclick="concat(math.plus.value);" name="plus" value="+">+</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button" onclick="concat(math.four.value);" name="four" value="4">4</button></td>
+                                    <td><button type="button" onclick="concat(math.five.value);" name="five" value="5">5</button></td>
+                                    <td><button type="button" onclick="concat(math.six.value);" name="six" value="6">6</button></td>
+                                    <td><button class="minbig" type="button" onclick="concat(math.minus.value);" name="minus" value="-">-</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button type="button" onclick="concat(math.seven.value);" name="seven" value="7">7</button></td>
+                                    <td><button type="button" onclick="concat(math.eight.value);" name="eight" value="8">8</button></td>
+                                    <td><button type="button" onclick="concat(math.nine.value);" name="nine" value="9">9</button></td>
+                                    <td><button class="mulbig" type="button" onclick="concat(math.multiply.value);" name="multiply" value="*">*</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="cbig" type="button" onclick="math.field.value=''" name="c">c</button></td>
+                                    <td><button type="button" onclick="concat(math.zero.value);" name="zero" value="0">0</button></td>
+                                    <td><button type="button" onclick="math.field.value=eval(math.field.value);" name="equals">=</button></td>
+                                    <td><button class="divbig" type="button" onclick="concat(math.divide.value);" name="divide" value="/">/</button></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </td>
+                    <td class="space"></td>
+                    <td class="align">
+                        <form class="right" name="date">
+                            <div class="center">
+                                <button type="button" onclick="date.output.value=showMonth();" name="month">Month</button>
+                                <button type="button" onclick="date.output.value=showDay();" name="day">Day</button>
+                                <button type="button" onclick="date.output.value=showYear();" name="year">Year</button>
+                                <button type="button" onclick="date.output.value=showTime(12);" name="time" value="12">Time (12 hour)</button>
+                                <button type="button" onclick="date.output.value=showTime(24);" name="time" value="24">Time (24 hour)</button>
+                            </div>
+                            <input class="out" type="text" name="output">
+                        </form>
+                    </td>
+                </tr>
+            </table> 
+        </div>
+        <footer>
+            Last updated by Franz Dominno on 18 Apr 2015
+        </footer>
+    </body>
+</html>

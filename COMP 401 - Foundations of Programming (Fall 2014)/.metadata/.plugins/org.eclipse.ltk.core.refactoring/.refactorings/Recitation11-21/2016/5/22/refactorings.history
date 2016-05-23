@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 packages to &apos;COMP 401 Recitations/11-21&apos;&#x0D;&#x0A;- Original project: &apos;Recitation11-21&apos;&#x0D;&#x0A;- Destination element: &apos;COMP 401 Recitations/11-21&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Recitation11-21/src/a8&#x0D;&#x0A;     Recitation11-21/src/comp401.sushi&#x0D;&#x0A;- Update references to refactored element" description="Move packages" destination="=COMP 401 Recitations/11-21" element1="/src&lt;a8" element2="/src&lt;comp401.sushi" flags="589830" fragments="2" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1464042682606" version="1.0"/>
+</session>

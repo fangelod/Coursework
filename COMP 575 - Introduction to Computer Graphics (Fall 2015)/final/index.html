@@ -1,0 +1,69 @@
+<title>COMP 575: Fall 2015</title>
+<body bgcolor=#f3f3f3>
+    
+    <center>
+        <H1><a href="../index.html">COMP 575</a>: Fall 2015</H1>
+        <H2>Final</H2>
+    </center>
+
+
+    You task is to implement GShader::FromLerp(). This will require you to know...
+    <ul>
+        <li>The semantics of calling a shader (setContext() and shadeRow())</li>
+        <li>How to perform a linear interpolation across 4 color components</li>
+    </ul>
+    This will also build upon your existing work:
+    <ul>
+        <li>Scan converter</li>
+        <li>Matrix concat and CTM management</li>
+        <li>Linear, Radial and Bitmap shaders</li>
+    </ul>
+
+    GShader.h has one new entry-point, <b>FromLerp(...)</b>, which will require you to create a new subclass of GShader.
+    This new shader is constructed with pointers to two other shaders and a T value between 0...1.
+    The new shader must forward all of its method calls (<b>setContext</b>, <b>shadeRow</b>) to each of is "subshaders",
+    and in the case of <b>shadeRow()</b>, combine the resulting colors weighted by the <b>T</b> value.
+
+    <pre>
+    class GShader {
+    public:
+        virtual ~GShader() {}
+        virtual bool setContext(const float ctm[6]) = 0;
+        virtual void shadeRow(int x, int y, int count, GPixel row[]) = 0;
+        static GShader* FromColor(const GColor&);
+        static GShader* FromBitmap(const GBitmap&, const float localMatrix[6]);
+        static GShader* FromBitmap(const GBitmap&, const GRect&);
+        static GShader* FromLinearGradient(const GPoint pts[2], const GColor colors[2]);
+        static GShader* FromRadialGradient(const GPoint& center, float radius, const GColor colors[2]);
+        <b>
+        /**
+         *  Return a new shader that returns the linear interpolation of colors returned by the
+         *  two other shaders a and b, with t applied as
+         *
+         *      colors_from_a * (1 - t) + colors_from_b * t
+         */
+        static GShader* FromLerp(GShader* a, GShader* b, float t); </b>
+    };
+    </pre>
+
+    Your <i>final</i> directory should like something like this:
+    <ul>
+        <li><b>apps</b> contains the code for one tools: image</li>
+        <li><b>expected</b> contains sample output from the image tool</li>
+        <li><b>include</b> contains headers that your subclass can use</li>
+        <li><b>src</b> contains common implementations needed for the tools</li>
+        <li><i>your_files</i> any .cpp or .h files you need to add for your implementation</li>
+    </ul>
+    <br>
+    To test your code...
+    <pre>
+    > make
+    > ./image -e expected
+    </pre>
+
+    <UL>
+        <LI>Code available in comp575-001-f15/code/final/</LI>
+        <LI>Store your code in comp575-001-f15/users/<b>your-name</b>/final/</LI>
+    </UL>
+
+</body>

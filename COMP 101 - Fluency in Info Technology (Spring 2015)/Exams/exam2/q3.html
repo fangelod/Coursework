@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="q3.css">
+    </head>
+    
+    <body>
+        <form name="app">
+            <label>Student:<input type="text" name="name" placeholder="Your Name"></label>
+            <label>
+                Meeting:
+                <input list="meet" name="meet">
+                <datalist id="meet">
+                    <option>11 am</option>
+                    <option>1 pm</option>
+                    <option>2 pm</option>
+                    <option>3 pm</option>
+                </datalist>
+            </label>
+            <button class="space" type="button" onclick="appoint(app.push.value, app.name.value, app.meet.value)" value="make" name="push">Make Appt</button>
+            <button type="button" onclick="appoint(app.push.value, app.name.value, app.meet.value)" value="cancel" name="push">Cancel Appt</button>
+            <label>Confirmation:<input class="output" type="text" name="confirm"></label>
+        </form>
+    </body>
+</html>

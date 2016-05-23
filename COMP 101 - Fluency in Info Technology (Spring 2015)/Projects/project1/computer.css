@@ -1,0 +1,57 @@
+html {
+    background: white;
+}
+div {
+    background: blue;
+    width: 80%;
+    margin: 50px;
+    display: block;
+    padding: 100px;
+    border: hidden;
+    border-radius: 25px;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: black;
+}
+body {
+    font-family: cursive;
+    color: white;
+}
+h1 {
+    font-size: 36pt;
+    text-align: center;
+}
+h2 {
+    font-size: 20pt;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+ul li {
+    display: inline;
+    border: solid red;
+    background: black;
+    padding: 10px;
+    margin: 25px;
+}
+body p {
+    font-size: 12pt;
+    text-indent: 25px;
+    text-align: justify;
+}
+cite {
+    font-family: arial;
+    text-align: left;
+}
+footer {
+    color: red;
+    font-family: consolas;
+    border: hidden;
+    border-radius: 25px;
+    background: white;
+    text-align: center;
+}

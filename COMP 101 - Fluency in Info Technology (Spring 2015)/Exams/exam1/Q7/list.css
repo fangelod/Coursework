@@ -1,0 +1,36 @@
+header ul {
+    list-style: none;
+    padding: 0;
+    display: block;
+    margin: auto;
+}
+header li {
+    text-align: center;
+    color: white;
+    background: blue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+header a:link {
+    color: white;
+}
+header a {
+    text-decoration: none;
+}
+div ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul {
+    font-style: italic;
+    list-style: none;
+    padding-top: 0;
+    padding: 0;
+    margin-top: 0;
+}
+footer p {
+    padding: 0;
+    margin: 0;
+}

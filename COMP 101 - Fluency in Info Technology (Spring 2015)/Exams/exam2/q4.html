@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="q4.css">
+        <script src="q4.js"></script>
+    </head>
+    
+    <body>
+        <form name="college">
+            <label> <input type="radio" name="gender" value="M" />Male</label>
+            <label> <input type="radio" name="gender" value="F" />Female</label>
+            <label>Year: <input type="number" name="year" /></label>
+            <button type="button" 			
+                    onclick="college.answer.value=
+                        whatyear(college.gender.value,college.year.value);"></button>
+            <label>Answer: <input type="text" name="answer" /></label>		
+        </form>
+    </body>
+</html>

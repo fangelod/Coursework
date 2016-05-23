@@ -1,0 +1,144 @@
+/* This CSS file was last updated by Franz Dominno on 6 Mar 2015 */
+.home {
+    background: url(images/stars.jpg);
+    background-size: 100%;
+    background-color: black;
+}
+.home body {
+    background: black;
+    color: white;
+    opacity: 0.7;
+}
+.home header {
+    padding: 25px;
+    padding-bottom: 0;
+}
+.home div {
+    padding: 25px;
+    padding-top: 0;
+}
+.home table, th, tr {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.home td:first-child {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.home table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    opacity: 1;
+}
+.home img {
+    max-width: 200px;
+    padding: 5px;
+}
+footer {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.home footer p {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.home footer a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.mercury {
+    background: url(images/mercury.jpg);
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.mercury body {
+    background: black;
+    color: white;
+    opacity: 0.7;
+}
+.mercury h1 {
+    text-align: center;
+}
+.mercury table {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.venus {
+    background: url(images/venus.jpg);
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.venus body {
+    background: black;
+    color: white;
+    opacity: 0.7;
+}
+.venus h1 {
+    text-align: center;
+}
+.venus table {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.earth {
+    background: url(images/earth.jpg);
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.earth body {
+    background: black;
+    color: white;
+    opacity: 0.7;
+}
+.earth h1 {
+    text-align: center;
+}
+.earth table {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mars {
+    background: url(images/mars.jpg);
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.mars body {
+    background: black;
+    color: white;
+    opacity: 0.7;
+}
+.mars h1 {
+    text-align: center;
+}
+.mars table {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.return {
+    text-align: center;
+}
+.return a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 16pt;
+}
+.return a:hover {
+    color: red;
+}

@@ -1,0 +1,104 @@
+/* This CSS file was last update by Franz Dominno on 7 Feb 2015 */
+img {
+    width: 400px;
+    display: block;
+    margin: auto;
+    border: 10px solid #000;
+}
+.startpage {
+    background: black;
+}
+.startpage body {
+    text-align: center;
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+    background: #0Bd600;
+    color: #034500;
+}
+.startpage h1 {
+    font-size: 36pt;
+    display: block;
+    line-height: 50%;
+}
+.startpage ul {
+    margin-right: 50px
+}
+.startpage ul li {
+    display: inline;
+    list-style: none;
+    margin: 25px;
+    padding: 5px;
+    border: solid #034500;
+    background: #034500;
+}
+.startpage a:link {
+    color: white;
+}
+.startpage a:visited {
+    color: black;
+}
+.startpage footer {
+    text-align: right;
+    font-size: 10pt;
+    margin-top: 100px;
+    line-height: 75%;
+}
+header {
+    background: black;
+    color: white;
+    text-align: center;
+}
+div {
+    background: white;
+    padding: 50px;
+}
+.line1 {
+    font-size: 36pt;
+}
+.line2 {
+    font-size: 28pt;
+}
+.line3 {
+    font-size: 20pt;
+}
+.pages {
+    background: black;
+}
+.pages body {
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+    background: #0Bd600;
+    color: #034500;
+    font-family: timesnewroman;
+}
+.pages div {
+    font-size: 12pt;
+}
+.pages nav {
+    text-align: center;
+}
+.pages nav ul {
+    margin-right: 40px;
+    font-size: 20pt;
+}
+.pages nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+.pages a {
+    text-decoration: none;
+}
+.pages a:link {
+    color: black;
+}
+.pages a:visited {
+    color: black;
+}
+.pages a:hover {
+    color: white;
+}

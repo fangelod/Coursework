@@ -1,0 +1,315 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+html {
+    background: #000000;
+}
+
+body {
+    width: 80%;
+    background: #7bafd4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#demographic {
+    overflow: hidden;
+}
+
+/* Hide all text elements */
+body * {
+    color: transparent;
+}
+
+#research, #teaching, #publications {
+    max-height: 0;
+}
+
+body:hover #research, body:hover #teaching, body:hover #publications {
+    max-height: none;
+}
+
+/* Zoomed in face */
+#demographic img {
+    width: 175%;
+    display: block;
+    margin-left: -30%;
+    margin-right: 50%;
+    margin-top: -160%;
+    margin-bottom: -100%;
+}
+
+body:hover {
+    padding: 25px;
+}
+
+/* Fix image on hover */
+body:hover #demographic img {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 3pt solid black;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+/* Fix hidden text */
+body:hover * {
+    color: #000000;
+}
+
+body:hover #demographic h1, body:hover #demographic h2, body:hover #demographic h3 {
+    color: #000000;
+    font-family: 'Press Start 2P', Impact, cursive;
+    text-align: center;
+}
+
+body:hover #demographic h1 {
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+
+body:hover #demographic h2 {
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+body:hover #demographic h3 {
+    font-size: 1vw;
+    padding: 0;
+    margin: 0;
+}
+
+/* Contact section START */
+body:hover #contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body:hover #address {
+    float: left;
+}
+
+body:hover #email {
+    float: right;
+}
+
+body:hover #phone {
+    clear: right;
+    float: right;
+}
+/* Contact section END */
+
+
+/* Fix section headings */
+body:hover #demographic h4 {
+    font-family: Stencil, cursive;
+    font-size: 1.5vw;
+    color: #ffffff;
+    background: #000000;
+    border: 3pt solid #ffffff;
+    border-bottom: 0pt;
+    text-align: center;
+    margin: 0;
+}
+
+body:hover #research h3 {
+    font-family: Stencil, cursive;
+    font-size: 1.5vw;
+    color: #ffffff;
+    background: #000000;
+    border: 3pt solid #ffffff;
+    border-bottom: 0pt;
+    text-align: center;
+    margin: 0;
+}
+
+body:hover #teaching h3 {
+    font-family: Stencil, cursive;
+    font-size: 1.5vw;
+    color: #ffffff;
+    background: #000000;
+    border: 3pt solid #ffffff;
+    border-bottom: 0pt;
+    text-align: center;
+    margin: 0;
+}
+
+body:hover #publications h3 {
+    font-family: Stencil, cursive;
+    font-size: 1.5vw;
+    color: #ffffff;
+    background: #000000;
+    border: 3pt solid #ffffff;
+    border-bottom: 0pt;
+    text-align: center;
+    margin: 0;
+}
+
+body:hover #demographic {
+    padding-bottom: 25px;
+}
+
+/* Education section START */
+body:hover #biographical {
+    float: left;
+    clear: left;
+    width: 30%;
+    border: 3pt solid #000000;
+    border-top: 3pt solid #ffffff;
+    background: #ffffff;
+    margin-bottom: 25px;
+}
+
+body:hover #biographical ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+body:hover #biographical ul * {
+    font-size: .85vw;
+    font-family: consolas, sans-serif;
+    padding-bottom: 10px;
+}
+/* Education section END */
+
+/* Professional Experience section START */
+body:hover #prof_experience {
+    float: right;
+    width: 30%;
+    border: 3pt solid #000000;
+    border-top: 3pt solid #ffffff;
+    background: #ffffff;
+}
+
+body:hover .experience {
+    font-size: 1vw;
+    font-family: consolas, sans-serif;
+    text-align: right;
+}
+
+body:hover .duration {
+    padding-bottom: 10px;
+}
+/* Professional Experience section END */
+
+/* Honors and Notables section START */
+body:hover #notables {
+    clear: left;
+    float: left;
+    width: 30%;
+    border: 3pt solid #000000;
+    border-top: 3pt solid #ffffff;
+    background: #ffffff;
+}
+
+body:hover #notables ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    list-style: none;
+}
+
+body:hover #notables ul * {
+    font-size: .85vw;
+    font-family: consolas, sans-serif;
+    padding-bottom: 10px;
+}
+/* Honors and Notables section END */
+
+/* Bio section START */
+body:hover #bio h4 {
+    width: 30%;
+    clear: left;
+    float: left;
+    margin-top: 25px;
+}
+
+body:hover #bio h4 + div {
+    clear: left;
+    float: left;
+    font-size: .85vw;
+    font-family: consolas, sans-serif;
+    width: 30%;
+    border: 3pt solid black;
+    background: #ffffff;
+}
+
+body:hover #research {
+    float: left;
+    width: 30%;
+    border: 3pt solid #000000;
+    border-top: 3pt solid #ffffff;
+    background: #ffffff;
+}
+
+body:hover #research .title, body:hover #research .description {
+    font-family: consolas, sans-serif;
+    font-size: 1vw;
+}
+
+body:hover .description {
+    padding-bottom: 10px;
+}
+
+body:hover #research .title {
+    font-weight: bold;
+}
+
+body:hover #teaching {
+    float: right;
+    width: 30%;
+    border: 3pt solid #000000;
+    border-top: 3pt solid #ffffff;
+    background: #ffffff;
+}
+
+body:hover .course {
+    font-family: consolas, sans-serif;
+    font-size: 1vw;
+}
+
+body:hover #teaching .title {
+    font-weight: bold;
+}
+
+body:hover .last {
+    padding-bottom: 10px;
+}
+
+body:hover #teaching {
+    float: right;
+    width: 30%;
+    border: 3pt solid #000000;
+    border-top: 3pt solid #ffffff;
+    background: #ffffff;
+}
+
+body:hover #publications {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3pt solid #000000;
+    border-top: 3pt solid #ffffff;
+    background: #ffffff;
+}
+
+body:hover #journals, body:hover #conferences {
+    font-family: consolas, sans-serif;
+    font-size: 1vw;
+}
+
+body:hover #publications h4 {
+    margin-bottom: 0;
+}
+
+body:hover #journals h4 {
+    margin-top: 0;
+}

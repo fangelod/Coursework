@@ -1,0 +1,37 @@
+/* This CSS file was last updated by Franz Dominno on 3 Mar 2015 */
+td, th, table {
+    border: 1px solid black;
+    
+}
+table {
+    background: white;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.num {
+    padding: 50px;
+    padding-left: 0;
+    padding-top: 0;
+}
+body {
+    background: lightgreen;
+}
+.text {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1 {
+    text-align: center;
+}
+th {
+    padding: 10px;
+}
+footer {
+    text-align: right;
+    width: 80%;
+}

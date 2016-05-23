@@ -1,0 +1,29 @@
+html {
+    background-image: url(images/comp014.gif);
+}
+div {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+}
+figure {
+    border:10px solid #f00;
+    text-align: center;
+    background: #ffd700;
+}
+img {
+    width: 75%;
+    margin: auto;
+    display: block;
+    padding: 25px;
+}
+footer {
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 300px;
+    font-size: 10pt;
+    border: solid #000;
+}

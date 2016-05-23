@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DebuggerDemo.java&apos; to &apos;COMP 401 Recitations/08-29&apos;&#x0D;&#x0A;- Original project: &apos;Recitation08-29&apos;&#x0D;&#x0A;- Destination element: &apos;COMP 401 Recitations/08-29&apos;&#x0D;&#x0A;- Original element: &apos;DebuggerDemo.java&apos;" description="Copy compilation unit" destination="=COMP 401 Recitations/08-29" element1="/src&lt;{DebuggerDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1414077484766" units="1" version="1.0"/>
+</session>

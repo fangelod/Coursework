@@ -1,0 +1,150 @@
+/* This CSS file was last updated by Franz Dominno on 28 Mar 2015 */
+html {
+    background-image: url("rice.jpg");
+    background-size: 100%;
+    background-color: black;
+}
+div {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    padding: 25px;
+}
+.nav {
+    padding: 25px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav li {
+    display: inline;
+    padding: 25px;
+}
+.white {
+    background: white;
+}
+.yellow {
+    background: yellow;
+}
+.blue {
+    background: blue;
+}
+.red {
+    background: red;
+}
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 36pt;
+}
+h1, h2 {
+    font-family: papyrus;
+}
+h2 {
+    font-size: 20pt;
+}
+.front {
+    clear: left;
+}
+h2 + img {
+    width: 200px;
+    float: left;
+    padding-right: 25px;
+}
+img + p {
+    text-indent: 25px;
+    font-size: 16pt;
+}
+h2 + p {
+    text-indent: 25px;
+    font-size: 16pt;
+}
+.sym, .sym th, .sym td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.sym {
+    float: left;
+    margin-right: 25px;
+}
+.sym img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    text-align: center;
+}
+th {
+    padding: 10px;
+}
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: black;
+    opacity: 0.8;
+    color: red;
+    text-indent: 25px;
+}
+.blank {
+    color: black;
+}
+footer {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: left;
+}
+.lyr td {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lyr th {
+    font-size: 16pt;
+}
+.lyr {
+    clear: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+form {
+    padding-top: 50px;
+}
+.space {
+    padding-top: 100px;
+}
+.malls img{
+    height: 175px;
+}
+.malls {
+    float: left;
+}
+.center {
+    padding-top: 0;
+    opacity: 1;
+}
+.nav .white a:hover {
+    color: red;
+}
+.nav .blue a:hover {
+    color: yellow;
+}
+.nav .yellow a:hover {
+    color: blue;
+}
+.nav .red a:hover {
+    color: white;
+}
+li a {
+    color: red;
+}

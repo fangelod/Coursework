@@ -1,0 +1,61 @@
+table, tr, td {
+    border: 1pt solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    
+}
+
+#grid {
+    width: 50%;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: white;
+}
+
+#buttons {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+#sliders {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parameters {
+    padding-top: 25px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#update {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    background: black;
+}
+#padleft {
+    padding-left: 25px;
+}

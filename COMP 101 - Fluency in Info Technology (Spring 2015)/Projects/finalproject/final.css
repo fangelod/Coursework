@@ -1,0 +1,144 @@
+/* This CSS file was last updated by Franz Dominno on 30 Apr 2015 */
+body {
+   width: 950px;
+   margin-left: auto;
+   margin-right: auto;
+   background: /*rgb(0,56,168)*/ black;
+   background-image: url('images/back.png');
+   /*background-repeat: no-repeat;*/
+   background-repeat: repeat-y;
+   background-position: center;
+}
+nav ul li {
+   display: inline; 
+}
+.instructions {
+    width: 100%;
+    text-align: justify;
+    color: white;
+}
+nav {
+   clear: both;
+   padding-top: 25px;
+   padding-top: 25px;
+}
+nav ul li a {
+   text-decoration: none;
+   background: blue;
+   color: yellow;
+   padding: 25px;
+   font-size: 18pt;
+   font-weight: bold;
+}
+nav ul li:last-child a {
+   /*padding-right: 60px;*/
+   padding-left: 43px;
+   padding-right: 43px;
+}
+nav ul li a:hover {
+   background: red;
+}
+nav ul {
+   background: white;
+   padding: 25px;
+   padding-left: 0;
+   padding-right: 0;
+}
+.header {
+   background: /*rgb(0,56,168)*/ black;
+   padding: 25px;
+   padding-bottom: 10px;
+}
+.logo {
+   width: 100px;
+   float: left;
+}
+.header h2 {
+   color: white;
+   font-family: lobster;
+   /*padding-top: 10px;*/
+   font-size: 30px;
+}
+.content {
+   background: white;
+   border: 10px solid /*rgb(0,56,168)*/black;
+   padding: 25px;
+   padding-top: 0;
+}
+button {
+    line-height: 315px;
+    vertical-align: top;
+    padding: 0px 6px;
+    border: 0px;
+}
+.carol {
+   display: table;
+   margin-left: auto;
+   margin-right: auto;
+}
+h3 {
+   text-align: center;
+}
+.hap {
+   height: 175px;
+   float: left;
+   padding-right: 25px;
+}
+.hap2 {
+   height: 200px;
+   float: right;
+   padding-left: 25px;
+}
+.hap3 {
+   height: 225px;
+   float: left;
+   padding-right: 25px;
+}
+.hap4 {
+   height: 255px;
+   float: left;
+   padding-right: 25px;
+}
+.hap5 {
+   height: 150px;
+   float: left;
+   padding-right: 25px;
+}
+.hap6 {
+   height: 150px;
+   float: right;
+   padding-left: 25px;
+}
+.content h2 {
+   clear: both;
+   font-size: 20pt;
+   padding-top: 25px;
+}
+footer {
+   color: white;
+   text-align: center;
+}
+p {
+   font-size: 16pt;
+   text-indent: 50px;
+   text-align: justify;
+}
+.content ul li {
+   font-size: 16pt;
+}
+h2 {
+   font-family: cursive;
+   text-align: center;
+}
+.main {
+   width: 750px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 25px;
+}
+h4 {
+   text-align: center;
+   font-size: 36pt;
+   font-family: stencil;
+}

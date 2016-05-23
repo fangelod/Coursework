@@ -1,0 +1,71 @@
+/* This CSS file was last updated by Franz Dominno on 24 Feb 2015 */
+body {
+    background: blue;
+    font-family: sans-serif;
+}
+
+section {
+    background: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+div.content p{
+    text-align: justify;
+}
+ 
+footer {
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border: solid blue 1px;
+    font-style: italic;
+    text-align: right;
+    padding: 10px;
+}
+
+header div {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.top {
+    float: left;
+    width: 220px;
+    height: 165px;
+}
+.dragon {
+    float: left;
+    max-width: 320px;
+    padding-right: 10px;
+}
+.ice {
+    float: right;
+    max-width: 320px;
+    padding-left: 10px;
+}
+.dog {
+    float: left;
+    max-width: 320px;
+    padding-right: 10px;
+}
+.money {
+    float: right;
+    max-width: 320px;
+    padding-left: 10px;
+}
+h2 {
+    clear: both;
+    padding-top: 25px;
+}
+footer {
+    margin-top: 100px;
+    width: 350px;
+}
